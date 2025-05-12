@@ -1,0 +1,29 @@
+{
+  "name": "engenharia-de-software-ii",
+  "version": "1.0.0",
+  "description": "Projeto aonde serão colocados todos os trabalhos da matéria",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahri707/Engenharia-de-Software-II.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ahri707/Engenharia-de-Software-II/issues"
+  },
+  "homepage": "https://github.com/Ahri707/Engenharia-de-Software-II#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.1.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.0"
+  }
+}
