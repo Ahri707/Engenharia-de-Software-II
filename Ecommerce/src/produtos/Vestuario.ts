@@ -1,5 +1,8 @@
 import Produto from "../abstracts/Produto_abstract";
 
+/**
+ * OBS: Typescipt não possui classes final por isso foi feita uma classe normal.
+ */
 class Vestuario extends Produto{
     protected quantidade: number;
     static desconto_qtd: number = 0.05;
